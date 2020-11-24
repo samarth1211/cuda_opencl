@@ -1,0 +1,52 @@
+#pragma once
+
+#define OFFSETOF(TYPE, ELEMENT) ((size_t)&(((TYPE *)0)->ELEMENT))
+
+#define _USE_MATH_DEFINES 1
+#include<stdio.h>
+#include<stdlib.h>
+#include<Windows.h>
+
+
+#include<gl\glew.h>
+#include<gl\GL.h>
+
+
+#include<math.h>
+
+#ifndef __COMMON_HEADER__
+#define __COMMON_HEADER__
+
+enum InitErrorCodes
+{
+	INIT_VERTEX_SHADER_COMPILATION_FAILED = -9,
+	INIT_FRAGMENT_SHADER_COMPILATION_FAILED,
+	INIT_LINK_SHADER_PROGRAM_FAILED,
+	INIT_FAIL_GLEW_INIT,
+	INIT_FAIL_BRIDGE_CONTEX_SET,
+	INIT_FAIL_BRIDGE_CONTEX_CREATION,
+	INIT_FAIL_SET_PIXEL_FORMAT,
+	INIT_FAIL_NO_PIXEL_FORMAT,
+	INIT_FAIL_NO_HDC,
+	INIT_ALL_OK,
+};
+
+enum attributeBindLocations
+{
+	SAM_ATTRIBUTE_POSITION0 = 0,
+	SAM_ATTRIBUTE_POSITION1 ,
+	SAM_ATTRIBUTE_POSITION2 ,
+	SAM_ATTRIBUTE_POSITION3 ,
+	SAM_ATTRIBUTE_POSITION4 ,
+	SAM_ATTRIBUTE_POSITION5 ,
+	//SAM_ATTRIBUTE_POSITION6 ,
+	
+};
+
+//extern FILE *g_pFile = NULL;
+
+// CUDA Check
+//extern cudaError status;
+
+
+#endif //__COMMON_HEADER__

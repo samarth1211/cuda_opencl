@@ -1,0 +1,107 @@
+OpenCL INFO : Count of OpenCL Platforms => 2
+
+OpenCL INFO : In OpenCL Platform 1 and Devices present => 1
+++++++++++++++++ Platform Info ++++++++++++++++++++++
+Platform Name = NVIDIA CUDA
+Platform Profile = FULL_PROFILE
+Platform Version = OpenCL 1.2 CUDA 10.1.0
+Platform Vendor = NVIDIA Corporation
+Platform Extension = cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer
+
+************* DEVICE GENERAL INFORMATION ***********
+=====================================================
+1. Device Type : CL_DEVICE_TYPE_GPU  
+1. Device Name : GeForce GTX 1060 
+1. Device Vendor : NVIDIA Corporation 
+1. Device Version: OpenCL 1.2 CUDA 
+1. Device Driver Version: 436.02 
+1. Device Max Clock Frequency: 1670 Hz
+1. Device OpenCL C Version : OpenCL C 1.2  
+
+*************** DEVICE MEMORY INFORMATION **********
+====================================================
+1. Device Global Memory  : 6442450944 Bytes
+1. Device Local Memory  : 49152 Bytes
+1. Device Constant Memory size  : 65536 Bytes
+1. Device Max Memory Alloc 1610612736
+
+***************** DEVICE COMPUTE INFORMATION **************
+============================================================
+1. Parallel compute units: 10
+1. Device Max Work Group Size : 1024
+1. Device Max Work Item Dimensions : 140694538682371
+1. Device Max Work Item Sizes : 1024,1024,64
+
+**************** DEVICE IMAGE SUPPORT **********
+============================================================
+1. Device Supported 2D image W X H  : 16384 X 32768
+1. Device Supported 2D image W X H X D : 16384 X 16384 X 16384
+############################################################
+
+OpenCL INFO : In OpenCL Platform 2 and Devices present => 2
+++++++++++++++++ Platform Info ++++++++++++++++++++++
+Platform Name = Intel(R) OpenCL
+Platform Profile = FULL_PROFILE
+Platform Version = OpenCL 2.1 
+Platform Vendor = Intel(R) Corporation
+Platform Extension = cl_khr_3d_image_writes cl_khr_byte_addressable_store cl_khr_depth_images cl_khr_fp64 cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_icd cl_khr_image2d_from_buffer cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_spir
+
+************* DEVICE GENERAL INFORMATION ***********
+=====================================================
+1. Device Type : CL_DEVICE_TYPE_GPU  
+1. Device Name : Intel(R) HD Graphics 630 
+1. Device Vendor : Intel(R) Corporation 
+1. Device Version: OpenCL 2.1 NEO  
+1. Device Driver Version: 26.20.100.6859 
+1. Device Max Clock Frequency: 1100 Hz
+1. Device OpenCL C Version : OpenCL C 2.0  
+
+*************** DEVICE MEMORY INFORMATION **********
+====================================================
+1. Device Global Memory  : 3381116928 Bytes
+1. Device Local Memory  : 65536 Bytes
+1. Device Constant Memory size  : 1690558464 Bytes
+1. Device Max Memory Alloc 1690558464
+
+***************** DEVICE COMPUTE INFORMATION **************
+============================================================
+1. Parallel compute units: 24
+1. Device Max Work Group Size : 256
+1. Device Max Work Item Dimensions : 140694538682371
+1. Device Max Work Item Sizes : 256,256,256
+
+**************** DEVICE IMAGE SUPPORT **********
+============================================================
+1. Device Supported 2D image W X H  : 16384 X 16384
+1. Device Supported 2D image W X H X D : 16384 X 16384 X 2048
+
+************* DEVICE GENERAL INFORMATION ***********
+=====================================================
+2. Device Type : CL_DEVICE_TYPE_CPU  
+2. Device Name : Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz 
+2. Device Vendor : Intel(R) Corporation 
+2. Device Version: OpenCL 2.1 (Build 0) 
+2. Device Driver Version: 7.6.0.0228 
+2. Device Max Clock Frequency: 2800 Hz
+2. Device OpenCL C Version : OpenCL C 2.0  
+
+*************** DEVICE MEMORY INFORMATION **********
+====================================================
+2. Device Global Memory  : 8452800512 Bytes
+2. Device Local Memory  : 32768 Bytes
+2. Device Constant Memory size  : 131072 Bytes
+2. Device Max Memory Alloc 2113200128
+
+***************** DEVICE COMPUTE INFORMATION **************
+============================================================
+2. Parallel compute units: 8
+2. Device Max Work Group Size : 8192
+2. Device Max Work Item Dimensions : 140694538682371
+2. Device Max Work Item Sizes : 8192,8192,8192
+
+**************** DEVICE IMAGE SUPPORT **********
+============================================================
+2. Device Supported 2D image W X H  : 16384 X 16384
+2. Device Supported 2D image W X H X D : 2048 X 2048 X 2048
+############################################################
+Press any key to exit . . .!!

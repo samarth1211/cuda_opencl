@@ -1,0 +1,10 @@
+File Opened Successfully. 
+SHADER_INFO : Vendor is : NVIDIA Corporation
+SHADER_INFO : Renderer is : (null)
+SHADER_INFO : OpenGL Version is : 4.6.0 NVIDIA 441.66
+SHADER_INFO : GLSL Version is : 4.60 NVIDIA
+CUDA Info : CUDA Initalized 
+Inside LoadGLTextures....!!!
+Leaving LoadGLTextures....!!!
+Initialize Complete 
+Closing File 
